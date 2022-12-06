@@ -16,7 +16,7 @@ import java.util.Set;
 public class DbInit {
     private final UserService userService;
 
-    @Autowired
+
     public DbInit(UserService userService) {
         this.userService = userService;
     }

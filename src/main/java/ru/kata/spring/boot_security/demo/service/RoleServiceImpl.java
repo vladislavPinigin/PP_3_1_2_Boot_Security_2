@@ -14,7 +14,7 @@ import java.util.List;
 public class RoleServiceImpl implements RoleService {
     private RoleRepository rolesRepository;
 
-    @Autowired
+
     public RoleServiceImpl(RoleRepository rolesRepository) {
         this.rolesRepository = rolesRepository;
     }
